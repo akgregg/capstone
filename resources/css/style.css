@@ -60,13 +60,13 @@ border: 1px solid black;
 
 .main-pic {
   padding: 2rem 1.5rem;
-
 }
 
 .main-pic img {
   width: 45rem;
   height: auto;
 }
+
 .learn-here {
   display: flex;
   flex-direction: column;
@@ -100,4 +100,98 @@ border: 1px solid black;
 
 .learn-here .button a {
 
+}
+
+
+/*section 2 code-desktop*/
+.main-2 {
+  display: flex;
+  border: 1px solid black;
+  background-color: #F7FDF6;
+  width: 75rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-1 {
+  width: 45rem;
+  height: auto;
+  padding-right: 1.5rem;
+}
+
+.col-1 img {
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+.col-1-text {
+  padding: 2rem 1.5rem;
+}
+
+.col-1-text h1 {
+  padding-bottom: 1.5rem;
+  font-size: 2.75rem;
+  color: #504746;
+}
+
+.col-1-text h2 {
+  padding-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: auto;
+}
+
+.event {
+  display: flex;
+  border: 1px solid black;
+  background-color: #FCF8F7;
+}
+
+/* code for when hover over box background-color changes
+  background-color: #C0C0C0;*/
+
+.event:hover {
+  background-color: #C0C0C0;
+}
+
+.event-img {
+  border: 1px solid black;
+  width: 10.5rem;
+  padding: 1rem;
+}
+
+.event-img img {
+  width: 10.5rem;
+  height: auto;
+  padding: 1rem;
+}
+
+.event-text {
+  width: 19.5rem;
+  padding: 2.5rem 1rem;
+}
+
+.event-text h1 {
+  font-size: 1.75rem;
+  text-align: left;
+  color: #504746;
+  padding-bottom: 1rem;
+}
+
+.event-text h2 {
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+  font-weight: 100;
+}
+
+.event-text a {
+  text-decoration: none;
+  color: #ADFCFF;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
