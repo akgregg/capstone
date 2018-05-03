@@ -191,7 +191,7 @@ border: 1px solid black;
 
 .event-text a {
   text-decoration: none;
-  color: #ADFCFF;
+  color: #7EB8BA;
   font-size: 1.25rem;
   font-weight: 600;
 }
@@ -210,16 +210,39 @@ border: 1px solid black;
   width: 15rem;
   height: auto;
   margin: 2rem;
+  border: 1px solid black;
+  background-color: #FCF8F7;
 }
 
+.course-text {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-text h2 {
+  font-size: 1.5rem;
+  color: #504746;
+}
+
+.course-text h3 {
+  padding: .75rem 0;
+  font-size: 1rem;
+  color: #BBB9C4;
+}
+
+.course-text h4 {
+  font-size: 1rem;
+  color: #BBB9C4;
+  line-height: 1.4rem;
+}
 .course img {
   width: 15rem;
   height: auto;
 }
 .main-3 {
   border: 1px solid black;
-  background-color: #F7FDF6;
+  /*background-color: #F7FDF6;*/
   width: 75rem;
+  background-color: #C0C0C0;
 }
 
 .main-3-heading {
@@ -229,5 +252,5 @@ border: 1px solid black;
 .main-3-heading h1{
   font-size: 2.75rem;
   color: #504746;
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
