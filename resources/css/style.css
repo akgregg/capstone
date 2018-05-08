@@ -1,18 +1,11 @@
 /*universal sytles*/
-html {
-  font-size: 16px;
+html, body {
+    font-size: 16px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #F7FDF6;
 }
 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Gothic A1', sans-serif;
-.container {
-  max-width: 960px;
-  margin: 0 auto;}
-
-body {
-  background-color: #F7FDF6;
-}
 
 /*Header Section styles*/
 header {
@@ -69,9 +62,12 @@ z-index: 1;*/
 }
 
 /*header mobile code*/
-@media only screen and (max-width: 470px) {
-  .header {
+@media only screen and (max-width: 480px) {
+  header {
+    display: block;
     max-width: 100%;
+    /*justify-content: space-between;*/
+    /*align-items: stretch;*/
   }
   .logo, .nav {
   display: none;
@@ -79,7 +75,15 @@ z-index: 1;*/
   .mobile-nav {
     display: block;
     text-align: center;
+    padding: 1rem 0;
   }
+
+  .mobile-nav a {
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
 }
 /*main content section 1 code - desktop*/
 
@@ -100,7 +104,7 @@ z-index: 1;*/
 }
 
 .main-pic-1 img {
-  max-width: 42rem;
+  max-width: 95%;
   height: auto;
   padding: 2rem 1.5rem;
 }
@@ -141,9 +145,28 @@ padding-left: 1rem;
   margin-left: 1rem;
 }
 
+.main-pic-1-nav, .learn-here-nav, .button-nav {
+  display: none;
+}
+/*main content section 1 mobile code*/
+@media only screen and (max-width: 480px) {
+  .main-pic-1-nav {
+    display: block;
+    width: 100%;
+  }
+    .main-pic-1-nav img {
+      max-width: 100%;
+      height: auto;
+    }
+    .main-pic-1, .main-pic-1 img {
+      display: none;
+    }
+    .main-1 {
+      
+    }
+}
 
-
-/*section 2 code-desktop*/
+/*main content section 2 code-desktop*/
 .main-2 {
   display: flex;
   /*border: 1px solid black;*/
@@ -162,11 +185,11 @@ padding-left: 1rem;
 
 .main-pic-2 {
   display: block;
-  width: 45rem;
+  width: 100%;
   /*padding: 2rem 1.5rem;*/
 }
 .col-1 img {
-  max-width: 42rem;
+  max-width: 91%;
   height: auto;
   padding: 2rem 1.5rem;
 }
@@ -252,7 +275,11 @@ padding-left: 1rem;
   font-weight: 600;
 }
 
-/*section 3 code desktop*/
+/*main content section 2 mobile code*/
+@media only screen and (max-width: 480px) {
+}
+
+/*main content section 3 code desktop*/
 
 .featured-courses {
   display: flex;
@@ -315,7 +342,11 @@ padding-left: 1rem;
   padding-top: 2rem;
 }
 
-/*section 4 desktop code*/
+/*main content section 3 mobile code*/
+@media only screen and (max-width: 480px) {
+}
+
+/*main content section 4 desktop code*/
 
 .main-4 {
   /*border: 1px solid black;*/
@@ -412,7 +443,11 @@ video {
   height: auto;
 }
 
-/*footer styles - desktop*/
+/*main content section 4 mobile code*/
+@media only screen and (max-width: 480px) {
+}
+
+/*footer styles - desktop code*/
 .footer {
   display: flex;
   /*align-items: center;*/
@@ -441,4 +476,8 @@ video {
   text-decoration: none;
   padding-right: 1.5rem;
   font-family: 'Open Sans', sans-serif;
+}
+
+/*footer styles - mobile code*/
+@media only screen and (max-width: 480px) {
 }
