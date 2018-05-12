@@ -57,6 +57,9 @@ z-index: 1;*/
   font-family: 'Open Sans', sans-serif;
 }
 
+.nav a:hover {
+  border-bottom: 1px solid #7EB8BA;
+}
 .mobile-nav {
   display: none;
 }
@@ -611,6 +614,7 @@ video {
   max-width: 100%;
   height: auto;
 }
+
 .main-4-nav, .main-4-heading-nav, .thesis-features-col1-nav, .video-nav {
   display: none;
 }
@@ -680,15 +684,28 @@ video {
 
 .legal {
   padding-top: 1rem;
+  padding-right: 1.5rem;
 }
-
-.legal a {
+.legal span {
+  display: inline-block;
+  padding: .5rem;
+}
+.legal span a {
+  color: #231A1A;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+/*.legal a {
   color: #231A1A;
   text-decoration: none;
   padding-right: 1.5rem;
   font-family: 'Open Sans', sans-serif;
-}
+}*/
 
+.legal a:hover {
+  border-bottom: 1px solid #7EB8BA;
+}
 .footer-nav, .copyright-nav {
   display: none;
 }
